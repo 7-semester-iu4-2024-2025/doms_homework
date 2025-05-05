@@ -7,13 +7,14 @@
       "id": 1,
       "attr": {
         "position": [
-          -973,
+          -968,
           -291,
           1
         ],
         "style": {
           "backgroundColor": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       },
       "ideas": {
         "1": {
@@ -45,8 +46,10 @@
                   2
                 ],
                 "parentConnector": {
-                  "label": "часть"
-                }
+                  "label": "часть",
+                  "arrow": "to"
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -74,7 +77,8 @@
             ],
             "parentConnector": {
               "label": "dt"
-            }
+            },
+            "collapsed": true
           }
         },
         "2": {
@@ -87,7 +91,8 @@
               6
             ],
             "parentConnector": {
-              "label": "св-во"
+              "label": "св-во",
+              "arrow": "to"
             }
           }
         },
@@ -100,7 +105,8 @@
               "id": 55,
               "attr": {
                 "parentConnector": {
-                  "label": "св-во"
+                  "label": "св-во",
+                  "arrow": "to"
                 },
                 "position": [
                   158,
@@ -117,8 +123,10 @@
               5
             ],
             "parentConnector": {
-              "label": "часть"
-            }
+              "label": "часть",
+              "arrow": "to"
+            },
+            "collapsed": true
           }
         },
         "-0.5": {
@@ -131,7 +139,8 @@
               4
             ],
             "parentConnector": {
-              "label": "св-во"
+              "label": "св-во",
+              "arrow": "to"
             }
           }
         }
@@ -143,12 +152,13 @@
       "attr": {
         "position": [
           -559,
-          -1306,
+          -1374,
           1
         ],
         "style": {
           "backgroundColor": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       },
       "ideas": {
         "10": {
@@ -162,7 +172,8 @@
             ],
             "parentConnector": {
               "label": "часть"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -170,13 +181,15 @@
               "id": 62,
               "attr": {
                 "parentConnector": {
-                  "label": "св-во"
+                  "label": "св-во",
+                  "arrow": "to"
                 },
                 "position": [
                   165.25,
                   -25.75,
                   1
-                ]
+                ],
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -200,8 +213,10 @@
                   2
                 ],
                 "parentConnector": {
-                  "label": "св-во"
-                }
+                  "label": "св-во",
+                  "arrow": "to"
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -226,7 +241,8 @@
                 ],
                 "parentConnector": {
                   "label": "св-во"
-                }
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -260,7 +276,8 @@
                   5
                 ],
                 "parentConnector": {
-                  "label": "часть"
+                  "label": "часть",
+                  "arrow": "to"
                 }
               }
             },
@@ -274,7 +291,8 @@
                   4
                 ],
                 "parentConnector": {
-                  "label": "часть"
+                  "label": "часть",
+                  "arrow": "to"
                 }
               }
             }
@@ -305,7 +323,8 @@
             ],
             "parentConnector": {
               "label": "часть"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -322,7 +341,8 @@
                 },
                 "parentConnector": {
                   "label": "часть"
-                }
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -341,8 +361,15 @@
                   },
                   "attr": {
                     "parentConnector": {
-                      "label": "св-во"
-                    }
+                      "label": "св-во",
+                      "arrow": "to"
+                    },
+                    "position": [
+                      105.7166748046875,
+                      156,
+                      2
+                    ],
+                    "collapsed": true
                   }
                 },
                 "0.5": {
@@ -357,6 +384,24 @@
                     "parentConnector": {
                       "label": "св-во",
                       "arrow": "to"
+                    },
+                    "collapsed": true
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "суммарная площадь апертур\n",
+                      "id": "128.b0fc.465585832-1535.6d93f2af3",
+                      "attr": {
+                        "position": [
+                          360.43333435058594,
+                          136,
+                          1
+                        ],
+                        "parentConnector": {
+                          "arrow": "to",
+                          "label": "св-во"
+                        }
+                      }
                     }
                   }
                 }
@@ -374,7 +419,8 @@
                   165,
                   -49.5,
                   4
-                ]
+                ],
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -394,7 +440,8 @@
                   "attr": {
                     "parentConnector": {
                       "label": "св-во"
-                    }
+                    },
+                    "collapsed": true
                   }
                 }
               }
@@ -412,7 +459,8 @@
             ],
             "parentConnector": {
               "label": "часть"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -430,6 +478,18 @@
               "attr": {
                 "parentConnector": {
                   "label": "часть"
+                },
+                "collapsed": true
+              },
+              "ideas": {
+                "1": {
+                  "title": "Массовый расход n\n",
+                  "id": "132.b0fc.465585832-1535.6d93f2af3",
+                  "attr": {
+                    "parentConnector": {
+                      "label": "св-во"
+                    }
+                  }
                 }
               }
             }
@@ -446,7 +506,8 @@
             ],
             "parentConnector": {
               "label": "часть"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -504,7 +565,8 @@
             ],
             "parentConnector": {
               "label": "часть"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "2": {
@@ -518,7 +580,8 @@
                 ],
                 "parentConnector": {
                   "label": "часть"
-                }
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -546,7 +609,8 @@
                     ],
                     "parentConnector": {
                       "label": "часть"
-                    }
+                    },
+                    "collapsed": true
                   },
                   "ideas": {
                     "1": {
@@ -576,7 +640,8 @@
                           225,
                           23.5,
                           1
-                        ]
+                        ],
+                        "collapsed": true
                       }
                     },
                     "2": {
@@ -605,7 +670,8 @@
             ],
             "parentConnector": {
               "label": "часть"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -618,8 +684,10 @@
                   1
                 ],
                 "parentConnector": {
-                  "label": "часть"
-                }
+                  "label": "часть",
+                  "arrow": "to"
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -633,7 +701,8 @@
                     ],
                     "parentConnector": {
                       "label": "св-во"
-                    }
+                    },
+                    "collapsed": true
                   },
                   "ideas": {
                     "1": {
@@ -674,7 +743,8 @@
                   "attr": {
                     "parentConnector": {
                       "label": "часть"
-                    }
+                    },
+                    "collapsed": true
                   }
                 }
               }
@@ -689,7 +759,8 @@
                   7
                 ],
                 "parentConnector": {
-                  "label": "часть"
+                  "label": "часть",
+                  "arrow": "to"
                 }
               }
             },
@@ -707,13 +778,15 @@
               "id": "94.540e.9d9095067-13ef.0bce15dc9",
               "attr": {
                 "parentConnector": {
-                  "label": "часть"
+                  "label": "часть",
+                  "arrow": "to"
                 },
                 "position": [
                   228.5,
                   337.5,
                   6
-                ]
+                ],
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -742,12 +815,13 @@
       "attr": {
         "position": [
           -133,
-          -1412,
+          -1450,
           1
         ],
         "style": {
           "backgroundColor": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       },
       "ideas": {
         "1": {
@@ -764,15 +838,18 @@
                   1
                 ],
                 "parentConnector": {
-                  "label": "="
+                  "label": "=",
+                  "arrow": "to"
                 }
               }
             }
           },
           "attr": {
             "parentConnector": {
-              "label": "св-во"
-            }
+              "label": "св-во",
+              "arrow": "to"
+            },
+            "collapsed": true
           }
         },
         "11": {
@@ -785,8 +862,10 @@
               1
             ],
             "parentConnector": {
-              "label": "св-во"
-            }
+              "label": "св-во",
+              "arrow": "to"
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -799,7 +878,8 @@
                   1
                 ],
                 "parentConnector": {
-                  "label": "="
+                  "label": "=",
+                  "arrow": "to"
                 }
               }
             }
@@ -815,14 +895,30 @@
               2
             ],
             "parentConnector": {
-              "label": "св-во"
+              "label": "св-во",
+              "arrow": "to"
+            }
+          }
+        },
+        "-2": {
+          "title": "плотность\n",
+          "id": "130.b0fc.465585832-1535.6d93f2af3",
+          "attr": {
+            "position": [
+              192.7166748046875,
+              36,
+              3
+            ],
+            "parentConnector": {
+              "label": "св-во",
+              "arrow": "to"
             }
           }
         }
       }
     },
     "6": {
-      "title": "Печатная паста с трафаретом и нанесённой паяльной пастой\n",
+      "title": "Печатная плата с трафаретом и нанесённой паяльной пастой",
       "id": 11,
       "ideas": {
         "11": {
@@ -836,7 +932,8 @@
             ],
             "parentConnector": {
               "label": "dt"
-            }
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -851,7 +948,8 @@
                 "parentConnector": {
                   "label": "часть",
                   "arrow": "to"
-                }
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -880,7 +978,8 @@
                       4
                     ],
                     "parentConnector": {
-                      "label": "часть"
+                      "label": "часть",
+                      "arrow": "to"
                     }
                   }
                 }
@@ -906,12 +1005,13 @@
       "attr": {
         "position": [
           236,
-          -321,
+          -313,
           1
         ],
         "style": {
           "backgroundColor": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       }
     },
     "7": {
@@ -956,7 +1056,8 @@
         ],
         "style": {
           "backgroundColor": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       },
       "ideas": {
         "1": {
@@ -968,8 +1069,10 @@
               "id": "117.540e.9d9095067-13ef.0bce15dc9",
               "attr": {
                 "parentConnector": {
-                  "label": "св-во"
-                }
+                  "label": "св-во",
+                  "arrow": "to"
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -977,7 +1080,8 @@
                   "id": "119.540e.9d9095067-13ef.0bce15dc9",
                   "attr": {
                     "parentConnector": {
-                      "label": "="
+                      "label": "=",
+                      "arrow": "to"
                     }
                   }
                 }
@@ -988,8 +1092,10 @@
               "id": "118.540e.9d9095067-13ef.0bce15dc9",
               "attr": {
                 "parentConnector": {
-                  "label": "св-во"
-                }
+                  "label": "св-во",
+                  "arrow": "to"
+                },
+                "collapsed": true
               },
               "ideas": {
                 "1": {
@@ -997,7 +1103,8 @@
                   "id": "120.540e.9d9095067-13ef.0bce15dc9",
                   "attr": {
                     "parentConnector": {
-                      "label": "="
+                      "label": "=",
+                      "arrow": "to"
                     }
                   }
                 }
@@ -1006,8 +1113,10 @@
           },
           "attr": {
             "parentConnector": {
-              "label": "часть"
-            }
+              "label": "часть",
+              "arrow": "to"
+            },
+            "collapsed": true
           }
         },
         "-1": {
@@ -1015,8 +1124,10 @@
           "id": "121.540e.9d9095067-13ef.0bce15dc9",
           "attr": {
             "parentConnector": {
-              "label": "часть"
-            }
+              "label": "часть",
+              "arrow": "to"
+            },
+            "collapsed": true
           },
           "ideas": {
             "1": {
@@ -1024,7 +1135,8 @@
               "id": "122.540e.9d9095067-13ef.0bce15dc9",
               "attr": {
                 "parentConnector": {
-                  "label": "протекает через"
+                  "label": "протекает через",
+                  "arrow": "to"
                 },
                 "position": [
                   308.1500244140625,
@@ -1036,6 +1148,79 @@
           }
         }
       }
+    },
+    "11": {
+      "title": "Время обработки 1 печатной платы T\n",
+      "id": "127.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "position": [
+          1316,
+          -829,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#E0E0E0"
+        }
+      },
+      "ideas": {}
+    },
+    "12": {
+      "title": "Объём паяльной пасты на 1 печатную плату V\n",
+      "id": "129.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "position": [
+          -1670,
+          -341,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#E0E0E0"
+        }
+      },
+      "ideas": {}
+    },
+    "13": {
+      "title": "Массовый расход паяльной пасты p\n",
+      "id": "131.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "position": [
+          1386,
+          -907,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#E0E0E0"
+        }
+      }
+    },
+    "14": {
+      "title": "Время перемещения ракеля t1\n",
+      "attr": {
+        "style": {
+          "backgroundColor": "#E0E0E0"
+        },
+        "position": [
+          25,
+          -55,
+          1
+        ]
+      },
+      "id": "133.b0fc.465585832-1535.6d93f2af3",
+      "ideas": {}
+    },
+    "15": {
+      "title": "Время выдавливания паяльной пасты t2",
+      "attr": {
+        "style": {
+          "backgroundColor": "#E0E0E0"
+        },
+        "position": [
+          318,
+          -61,
+          1
+        ]
+      },
+      "id": "134.b0fc.465585832-1535.6d93f2af3"
     }
   },
   "title": "Печатная плата",
@@ -1266,7 +1451,7 @@
         "style": {
           "color": "#707070",
           "lineStyle": "solid",
-          "arrow": "to",
+          "arrow": "from",
           "label": "обр. ~"
         }
       }
@@ -1278,7 +1463,7 @@
         "style": {
           "color": "#707070",
           "lineStyle": "solid",
-          "arrow": "to",
+          "arrow": "from",
           "label": "~"
         }
       }
@@ -1580,6 +1765,126 @@
           "lineStyle": "solid",
           "arrow": "to",
           "label": "питает"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "128.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "129.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "78.540e.9d9095067-13ef.0bce15dc9",
+      "ideaIdTo": "129.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "129.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "131.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "130.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "131.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 48,
+      "ideaIdTo": "133.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "102.540e.9d9095067-13ef.0bce15dc9",
+      "ideaIdTo": "133.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "обр ~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "133.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "127.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "часть"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "134.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "129.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "from",
+          "label": "~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "132.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "134.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "обр ~"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "134.b0fc.465585832-1535.6d93f2af3",
+      "ideaIdTo": "127.b0fc.465585832-1535.6d93f2af3",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to",
+          "label": "часть"
         }
       }
     }
